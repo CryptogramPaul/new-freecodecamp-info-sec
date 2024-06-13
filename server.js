@@ -6,7 +6,7 @@ const app = express();
 const bcrypt = require("bcrypt");
 fccTesting(app);
 const saltRounds = 12;
-const myPlaintextPassword = "sUperpassw0rd!";
+const myPlaintextPassword = "passw0rd!";
 const someOtherPlaintextPassword = "pass123";
 
 // bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
